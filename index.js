@@ -1,7 +1,7 @@
 const { spawnSync } = require('child_process')
 const { existsSync, writeFileSync } = require('fs')
 
-const SESSION_ID = 'levanter_287a3688eb8d74462eb6eaeae8e875341a' // Edit this line only, don't remove ' <- this symbol
+const SESSION_ID = 'levanter_29db70d9264ba24f54b6d9f6c4486c0bf8' // Edit this line only, don't remove ' <- this symbol
 
 if (!existsSync('levanter')) {
   console.log('Cloning the repository...')
